@@ -2,5 +2,5 @@
 - name: demo playbook
   hosts: all
   tasks:
-   - name: pinging the servers
-ping:
+    - name: pinging the servers
+      ansible.builtin.ping:
