@@ -1,0 +1,6 @@
+---
+- name: demo playbook
+  hosts: all
+  tasks:
+   - name: pinging the servers
+ping:
